@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نمایش لینک در iframe</title>
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- css-file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <main>
+          <div class="iframe-wrapper">
+            <iframe id="myFrame" src=""></iframe>
+          </div>
+
+          <section class="site-permissions">
+            <span>سایت هایی که اجازه دسترسی داریم ✅ و نداریم ❌:</span>
+            <div class="btns-wrapper">
+              <button onclick="loadSite('https://fa.wikipedia.org/')">
+                ویکی پدیا ✅
+              </button>
+              <button onclick="loadSite('https://www.varzesh3.com/')">
+                ورزش 3 ❌
+              </button>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
