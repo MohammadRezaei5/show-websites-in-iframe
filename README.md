@@ -30,7 +30,7 @@ sources for further reading:
 
 Some features:
 
-* css --> flexbox//transition/box-shadow/@media/:hover
+* css --> flexbox/transition/box-shadow/@media/:hover
 * js --> function-declaration/getElementById
 --------------------------------------------------------------
 
